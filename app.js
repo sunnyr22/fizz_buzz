@@ -1,5 +1,7 @@
 $(document).ready(function() {
-	for (var i = 1; i <= 100; i++) {
+
+	var h = prompt("Enter number between 1 to 100");
+	for (var i = 1; i <= h; i++) {
 		if (i%3 === 0  && i%5 === 0) {
 			$('.list').append('<li>' + 'Fizz-Buzz'+'</li>');
 		}
